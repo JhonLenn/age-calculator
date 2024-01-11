@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #ffffff;
+    width: 50vw;
+    height: 40vh;
+    border-radius: 20px 20px 150px 20px ;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+.card-head{
+    display: flex;
+    justify-content: flex-start;
+   
+
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 18%;
+    padding: 10px;
+    gap: 5px;
+}
+
+.line{
+    background-color: lightgray;
+    width: 80%;
+    height: 1px;
+}
